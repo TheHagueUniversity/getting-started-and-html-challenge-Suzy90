@@ -1,0 +1,52 @@
+p {
+	font-size: 40px;
+	top: 10px;
+	font-family: Arial;
+
+}
+
+#dateToday {
+	margin-top: 10px;
+	padding-top: 10px;
+	text-shadow: 2px 3px 10px rgb(186, 249, 255);
+	font-size: 4em;
+
+}
+
+ #room {
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%;
+}
+
+
+#banner {
+	width: 1400px;
+	height:10px;
+    margin: 0;
+    transform: rotate(1.5deg);
+  }
+
+#clock{
+	margin-top: 55px;
+	text-shadow: 2px 3px 8px #fff;
+	font-size: 4em;
+	animation-name: clockSlide;
+	animation-duration: 8s; 
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes clockSlide {
+	from {transform: translateX(0);}
+	to {transform:translateX(100%);}
+}
+
+.sideship {
+  position: inherit;
+  width: 100%;
+  height: 100%;
+}
+
